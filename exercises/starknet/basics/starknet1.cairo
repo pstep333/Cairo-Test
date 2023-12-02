@@ -24,6 +24,8 @@ mod JoesContract {
     }
 }
 
+// Need to investigate what felt252 refers to? I thought this would be 8-bit?
+
 #[cfg(test)]
 mod test {
     use array::ArrayTrait;
