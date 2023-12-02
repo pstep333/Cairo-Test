@@ -10,6 +10,8 @@ trait IJoesContract<TContractState> {
     fn get_owner(self: @TContractState) -> felt252;
 }
 
+// Interface has been loaded correctly.
+
 #[starknet::contract]
 mod JoesContract {
     #[storage]
